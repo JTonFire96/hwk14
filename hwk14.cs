@@ -31,5 +31,25 @@ namespace hwk14
 
 
         }
+         public void Mymethod()
+        {
+            Console.WriteLine("my stuff got deleted");
+        }
+        private void Pmethod()
+        {
+            Console.WriteLine("my stuff got deleted");
+        }
+        public int ReInt()
+        {
+            int reVar = 4 - 4;
+            return reVar;
+        }
+        public void Meth3(int x, string y)
+        {
+            int f = 4;
+            string c = "money";
+            Console.WriteLine("I do it {0} the {1}", f, c);
+            Console.ReadKey();
+        }
     }
 }
